@@ -25,7 +25,7 @@
      Resume: pmtu 1500 hops 1 back 1
 ```
 Видно, что симметричный роутинг. Далее, заходим в vtysh -> сonf t -> interface eth1 -> ip ospf cost 500 -> exit-exit-exit
-Проверим теперь симметричность и видим расхождения почти на 360ms
+Проверим теперь симметричность и видим расхождения почти на .360ms
 ```
 [root@r3 vagrant]# tracepath -n 11.10.0.1
  1?: [LOCALHOST]                                         pmtu 1500
